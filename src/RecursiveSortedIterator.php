@@ -4,6 +4,11 @@ namespace F1\Base;
 
 use RecursiveIterator;
 
+/**
+ * A helper for the SPL recursive iterators, allowing for sorting items at each level.
+ *
+ * @package F1\Base
+ */
 class RecursiveSortedIterator implements RecursiveIterator
 {
     private $iterator;
